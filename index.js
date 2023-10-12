@@ -42,7 +42,7 @@ const jsonData = {
   playedBy: ["Kit Harington"],
 };
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send({ message: "Start Server" });
 });
 
 app.get("/home", (req, res) => {
